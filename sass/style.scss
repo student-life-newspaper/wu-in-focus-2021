@@ -294,9 +294,6 @@ $color-dark-blue: #002d54;
 }
 
 #improve-mental-health {
-    .accordion {
-        z-index: 99999;
-    }
     .article-heading {
         .title {
             font-family: $font-headings-sans;
@@ -326,6 +323,41 @@ $color-dark-blue: #002d54;
             font-weight: bold;
             font-family: $font-headings-sans;
             text-align: center;
+        }
+    }
+}
+
+#coaches {
+    .article-heading {
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 25px;
+            color: $color-dark-blue;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 35px;
+            padding-right: 40px;
+            .serif {
+                display: inline;
+                font-family: $font-headings-serif;
+                font-size: 70px;
+                line-height: 80px;
+                text-transform: none;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: calc(100% + 50px);
+        margin-left: 0px;
+    }
+    .article-contents {
+        .note {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+            margin-top: 2em;
+            font-family: $font-headings-sans;
         }
     }
 }
