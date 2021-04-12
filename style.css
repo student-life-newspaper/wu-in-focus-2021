@@ -145,33 +145,31 @@
   font-weight: bold;
   font-size: 0.6em;
   margin-bottom: 7px; }
-#wu-in-focus-2021-container #sunday-morning .article-heading {
-  margin-top: 6em; }
-  #wu-in-focus-2021-container #sunday-morning .article-heading .title {
+#wu-in-focus-2021-container #sunday-morning .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 40px;
+  color: #94aad8;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #sunday-morning .article-heading .title span {
     font-family: "Futura", "Helvetica", sans-serif;
-    font-size: 40px;
-    color: #94aad8;
-    text-transform: uppercase;
+    font-style: normal;
     font-weight: bold;
-    line-height: 60px;
-    padding-right: 40px; }
-    #wu-in-focus-2021-container #sunday-morning .article-heading .title span {
-      font-family: "Futura", "Helvetica", sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 40px;
-      line-height: 50px;
-      color: #002d54;
-      letter-spacing: -2px;
-      text-transform: uppercase; }
-      #wu-in-focus-2021-container #sunday-morning .article-heading .title span i {
-        font-family: Georgia, "Times New Roman", Times, serif;
-        font-weight: normal;
-        font-size: 58px;
-        text-transform: lowercase; }
-  #wu-in-focus-2021-container #sunday-morning .article-heading .horizontal-divider {
-    width: calc(100% + 50px);
-    margin-left: -50px; }
+    font-size: 40px;
+    line-height: 50px;
+    color: #002d54;
+    letter-spacing: -2px;
+    text-transform: uppercase; }
+    #wu-in-focus-2021-container #sunday-morning .article-heading .title span i {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-weight: normal;
+      font-size: 58px;
+      text-transform: lowercase; }
+#wu-in-focus-2021-container #sunday-morning .article-heading .horizontal-divider {
+  width: calc(100% + 50px);
+  margin-left: -50px; }
 #wu-in-focus-2021-container .space {
   height: 100vh; }
 
