@@ -40,10 +40,10 @@
     font-weight: normal;
     text-align: right;
     color: #fff; }
-#wu-in-focus-2021-container #letter-from-the-editor .accordion-button {
+#wu-in-focus-2021-container .accordion-button {
   background-color: #fff !important;
   box-shadow: none !important; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-heading .title {
+#wu-in-focus-2021-container .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 80px;
   color: #91cd92;
@@ -51,7 +51,7 @@
   font-weight: bold;
   line-height: 90px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #letter-from-the-editor .article-heading .title span {
+  #wu-in-focus-2021-container .article-heading .title span {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 130px;
@@ -59,7 +59,7 @@
     color: #002d54;
     letter-spacing: -2px;
     text-transform: lowercase; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-heading .horizontal-divider {
+#wu-in-focus-2021-container .article-heading .horizontal-divider {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
   background: #94aad8;
   /* Old browsers */
@@ -75,21 +75,66 @@
   width: 80vw;
   margin-left: -30px;
   margin-top: -3px; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-heading .author-info {
+#wu-in-focus-2021-container .article-heading .author-info {
   font-size: 20px; }
-  #wu-in-focus-2021-container #letter-from-the-editor .article-heading .author-info .author {
+  #wu-in-focus-2021-container .article-heading .author-info .author {
     font-weight: bold; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-contents {
+#wu-in-focus-2021-container .article-contents {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 1.5em; }
-  #wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
-    font-family: Georgia, "Times New Roman", Times, serif;
+  #wu-in-focus-2021-container .article-contents .image-wrapper {
+    width: 160%;
+    margin-left: -30%; }
+    #wu-in-focus-2021-container .article-contents .image-wrapper img {
+      width: 100%; }
+    #wu-in-focus-2021-container .article-contents .image-wrapper .credit {
+      width: 100%;
+      text-align: right;
+      font-family: "Futura", "Helvetica", sans-serif;
+      font-weight: bold;
+      font-size: 0.6em;
+      margin-bottom: 7px; }
+    #wu-in-focus-2021-container .article-contents .image-wrapper .caption {
+      font-family: "Futura", "Helvetica", sans-serif;
+      font-weight: normal;
+      font-size: 0.6em; }
+#wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #94aad8;
+  font-size: 2.5em; }
+#wu-in-focus-2021-container #letter-from-the-editor .article-contents .signature {
+  width: 350px;
+  margin-left: -30px; }
+#wu-in-focus-2021-container #WUPD .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 40px;
+  color: #94aad8;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #WUPD .article-heading .title span {
+    font-family: "Futura", "Helvetica", sans-serif;
     font-style: italic;
-    color: #94aad8;
-    font-size: 2.5em; }
-  #wu-in-focus-2021-container #letter-from-the-editor .article-contents .signature {
-    width: 350px;
-    margin-left: -30px; }
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 50px;
+    color: #91cd92;
+    letter-spacing: -2px;
+    text-transform: none; }
+#wu-in-focus-2021-container #WUPD .article-heading .horizontal-divider {
+  width: calc(100% + 30px); }
+#wu-in-focus-2021-container #WUPD .dropcap-light-blue:first-letter {
+  color: #94aad8;
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 6px;
+  padding-right: 8px;
+  padding-left: 3px; }
 #wu-in-focus-2021-container .space {
   height: 100vh; }
 
