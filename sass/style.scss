@@ -363,8 +363,52 @@ $color-dark-blue: #002d54;
     }
 }
 
-.space {
-    height: 100vh;
+#esl {
+    .article-heading {
+        .title {
+            font-family: $font-headings-serif;
+            font-size: 40px;
+            color: $color-dark-blue;
+            text-transform: none;
+            font-weight: 500;
+            font-style: italic;
+            line-height: 50px;
+            padding-right: 40px;
+            .text-light-blue, .text-dark-blue {
+                font-weight: bold;
+                color: $color-light-blue;
+                font-family: $font-headings-sans;
+                text-transform: uppercase;
+                font-style: normal;
+                font-size: 35px;
+                line-height: 20px;
+            }
+            .text-dark-blue {
+                color: $color-dark-blue;
+            }
+
+            div {
+                display: inline;
+            }
+            .italic {
+                font-family: $font-headings-serif;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: 100%;
+        margin: 0;
+    }
+    .article-contents {
+        .note {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+            font-family: $font-headings-sans;
+            text-align: center;
+        }
+    }
 }
 
 }

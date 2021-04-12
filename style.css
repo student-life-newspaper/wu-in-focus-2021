@@ -253,7 +253,37 @@
   font-weight: bold;
   margin-top: 2em;
   font-family: "Futura", "Helvetica", sans-serif; }
-#wu-in-focus-2021-container .space {
-  height: 100vh; }
+#wu-in-focus-2021-container #esl .article-heading .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #002d54;
+  text-transform: none;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 50px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #esl .article-heading .title .text-light-blue, #wu-in-focus-2021-container #esl .article-heading .title .text-dark-blue {
+    font-weight: bold;
+    color: #94aad8;
+    font-family: "Futura", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 20px; }
+  #wu-in-focus-2021-container #esl .article-heading .title .text-dark-blue {
+    color: #002d54; }
+  #wu-in-focus-2021-container #esl .article-heading .title div {
+    display: inline; }
+  #wu-in-focus-2021-container #esl .article-heading .title .italic {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+#wu-in-focus-2021-container #esl .horizontal-divider {
+  width: 100%;
+  margin: 0; }
+#wu-in-focus-2021-container #esl .article-contents .note {
+  font-style: italic; }
+#wu-in-focus-2021-container #esl .article-contents .bold {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
