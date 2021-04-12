@@ -2,6 +2,14 @@
 //     margin: 0;
 // }
 
+$font-headings-sans: 'Futura', 'Helvetica', sans-serif;
+$font-headings-serif: Georgia, 'Times New Roman', Times, serif;
+$font-body: 'Cormorant Garamond', Georgia, serif;
+
+$color-light-green: #91cd92;
+$color-light-blue: #94aad8;
+$color-dark-blue: #002d54;
+
 #wu-in-focus-2021-container {
 
 .navbar {
@@ -20,7 +28,7 @@
     background: -webkit-linear-gradient(top,  #94aad8 0%,#91cd92 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #94aad8 0%,#91cd92 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=0 ); /* IE6-9 */
-    font-family: 'Futura', 'Helvetica', sans-serif;
+    font-family: $font-headings-sans;
     font-weight: bold;
     color: #fff;
     display: flex;
@@ -49,7 +57,7 @@
 }
 
 .year-wrapper {
-    background-color: #91cd92;
+    background-color: $color-light-green;
 
     .year {
         font-size: 30px;
@@ -59,5 +67,70 @@
     }
 }
 
+#letter-from-the-editor {
+    .accordion-button {
+        background-color: #fff !important;
+        box-shadow: none !important;
+    }
+
+    .article-heading {
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 80px;
+            color: $color-light-green;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 90px;
+            padding-right: 40px;
+            span {
+                font-family: $font-headings-serif;
+                font-style: italic;
+                font-size: 130px;
+                line-height: 130px;
+                color: $color-dark-blue;
+                letter-spacing: -2px;
+                text-transform: lowercase;
+            }
+        }
+        .horizontal-divider {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
+            background: #94aad8; /* Old browsers */
+            background: -moz-linear-gradient(left,  #94aad8 0%, #91cd92 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left,  #94aad8 0%,#91cd92 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right,  #94aad8 0%,#91cd92 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=1 ); /* IE6-9 */
+            height: 7px;
+            width: 80vw;
+            margin-left: -30px;
+            margin-top: -3px;
+        }
+        .author-info {
+            font-size: 20px;
+            .author {
+                font-weight: bold;
+            }
+        }
+    }
+    .article-contents {
+        font-family: $font-body;
+        font-size: 1.5em;
+
+        .dear-readers {
+            font-family: $font-headings-serif;
+            font-style: italic;
+            color: $color-light-blue;
+            font-size: 2.5em;
+        }
+
+        .signature {
+            width: 350px;
+            margin-left: -30px;
+        }
+    }
+}
+
+.space {
+    height: 100vh;
+}
 
 }
