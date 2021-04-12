@@ -108,6 +108,16 @@
     padding-top: 6px;
     padding-right: 8px;
     padding-left: 3px; }
+  #wu-in-focus-2021-container .article-contents .dropcap-light-green:first-letter {
+    color: #91cd92;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-left: 3px; }
 #wu-in-focus-2021-container .image-wrapper-headline img {
   width: 100%;
   margin: auto; }
@@ -124,6 +134,12 @@
   text-transform: lowercase; }
 #wu-in-focus-2021-container .italic {
   font-style: italic; }
+#wu-in-focus-2021-container .text-light-green {
+  color: #91cd92; }
+#wu-in-focus-2021-container .text-light-blue {
+  color: #94aad8; }
+#wu-in-focus-2021-container .text-dark-blue {
+  color: #002d54; }
 #wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -192,6 +208,29 @@
 #wu-in-focus-2021-container #freshman-sports .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
+#wu-in-focus-2021-container #improve-mental-health .accordion {
+  z-index: 99999; }
+#wu-in-focus-2021-container #improve-mental-health .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 40px;
+  color: #002d54;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #improve-mental-health .article-heading .title div {
+    display: inline; }
+  #wu-in-focus-2021-container #improve-mental-health .article-heading .title .italic {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+#wu-in-focus-2021-container #improve-mental-health .horizontal-divider {
+  width: calc(100% + 50px);
+  margin-left: 0px; }
+#wu-in-focus-2021-container #improve-mental-health .article-contents .note {
+  font-style: italic; }
+#wu-in-focus-2021-container #improve-mental-health .article-contents .bold {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-align: center; }
 #wu-in-focus-2021-container .space {
   height: 100vh; }
 

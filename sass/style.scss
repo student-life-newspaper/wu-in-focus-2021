@@ -52,8 +52,6 @@ $color-dark-blue: #002d54;
         animation: fadeIn 2s ease-in-out 1s 1 normal;
     }
 
-    
-
 }
 
 .year-wrapper {
@@ -144,6 +142,17 @@ $color-dark-blue: #002d54;
         padding-right: 8px;
         padding-left: 3px;
     }
+    .dropcap-light-green:first-letter {
+        color: $color-light-green;
+        float: left;
+        font-family: $font-headings-serif;
+        font-style: italic;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 6px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
 }
 
 .image-wrapper-headline {
@@ -169,6 +178,15 @@ $color-dark-blue: #002d54;
 }
 .italic {
     font-style: italic;
+}
+.text-light-green {
+    color: $color-light-green;
+}
+.text-light-blue {
+    color: $color-light-blue;
+}
+.text-dark-blue {
+    color: $color-dark-blue;
 }
 
 #letter-from-the-editor {
@@ -264,20 +282,51 @@ $color-dark-blue: #002d54;
             line-height: 60px;
             padding-right: 40px;
             span {
-                // font-family: $font-headings-serif;
-                // font-style: normal;
-                // font-weight: bold;
                 font-size: 60px;
                 line-height: 50px;
-                // color: $color-dark-blue;
-                // letter-spacing: -2px;
-                // text-transform: uppercase;
             }
         }
     }
     .horizontal-divider {
         width: calc(100% + 50px);
         margin-left: 0px;
+    }
+}
+
+#improve-mental-health {
+    .accordion {
+        z-index: 99999;
+    }
+    .article-heading {
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 40px;
+            color: $color-dark-blue;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 50px;
+            padding-right: 40px;
+            div {
+                display: inline;
+            }
+            .italic {
+                font-family: $font-headings-serif;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: calc(100% + 50px);
+        margin-left: 0px;
+    }
+    .article-contents {
+        .note {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+            font-family: $font-headings-sans;
+            text-align: center;
+        }
     }
 }
 
