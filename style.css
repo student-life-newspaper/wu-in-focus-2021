@@ -98,6 +98,16 @@
       font-family: "Futura", "Helvetica", sans-serif;
       font-weight: normal;
       font-size: 0.6em; }
+  #wu-in-focus-2021-container .article-contents .dropcap-light-blue:first-letter {
+    color: #94aad8;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-left: 3px; }
 #wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -125,16 +135,43 @@
     text-transform: none; }
 #wu-in-focus-2021-container #WUPD .article-heading .horizontal-divider {
   width: calc(100% + 30px); }
-#wu-in-focus-2021-container #WUPD .dropcap-light-blue:first-letter {
-  color: #94aad8;
-  float: left;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 6px;
-  padding-right: 8px;
-  padding-left: 3px; }
+#wu-in-focus-2021-container #sunday-morning .image-wrapper img {
+  width: 100%;
+  margin: auto; }
+#wu-in-focus-2021-container #sunday-morning .image-wrapper .credit {
+  width: 100%;
+  text-align: right;
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 0.6em;
+  margin-bottom: 7px; }
+#wu-in-focus-2021-container #sunday-morning .article-heading {
+  margin-top: 6em; }
+  #wu-in-focus-2021-container #sunday-morning .article-heading .title {
+    font-family: "Futura", "Helvetica", sans-serif;
+    font-size: 40px;
+    color: #94aad8;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    padding-right: 40px; }
+    #wu-in-focus-2021-container #sunday-morning .article-heading .title span {
+      font-family: "Futura", "Helvetica", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 50px;
+      color: #002d54;
+      letter-spacing: -2px;
+      text-transform: uppercase; }
+      #wu-in-focus-2021-container #sunday-morning .article-heading .title span i {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: normal;
+        font-size: 58px;
+        text-transform: lowercase; }
+  #wu-in-focus-2021-container #sunday-morning .article-heading .horizontal-divider {
+    width: calc(100% + 50px);
+    margin-left: -50px; }
 #wu-in-focus-2021-container .space {
   height: 100vh; }
 

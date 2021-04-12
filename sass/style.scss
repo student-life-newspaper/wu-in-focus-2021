@@ -133,7 +133,17 @@ $color-dark-blue: #002d54;
             font-size: 0.6em;
         }
     }
-
+    .dropcap-light-blue:first-letter {
+        color: $color-light-blue;
+        float: left;
+        font-family: $font-headings-serif;
+        font-style: italic;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 6px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
 }
 
 #letter-from-the-editor {
@@ -178,16 +188,57 @@ $color-dark-blue: #002d54;
             width: calc(100% + 30px);
         }
     }
-    .dropcap-light-blue:first-letter {
-        color: $color-light-blue;
-        float: left;
-        font-family: $font-headings-serif;
-        font-style: italic;
-        font-size: 75px;
-        line-height: 60px;
-        padding-top: 6px;
-        padding-right: 8px;
-        padding-left: 3px;
+}
+
+#sunday-morning {
+    .image-wrapper {
+        // width: 120%;
+        // margin-left: -12%;
+        img {
+            width: 100%;
+            margin: auto
+        }
+        .credit {
+            width: 100%;
+            text-align: right;
+            font-family: $font-headings-sans;
+            font-weight: bold;
+            font-size: 0.6em;
+            margin-bottom: 7px;
+        }
+    }
+    .article-heading {
+        margin-top: 6em;
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 40px;
+            color: $color-light-blue;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 60px;
+            padding-right: 40px;
+            span {
+                font-family: $font-headings-sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 50px;
+                color: $color-dark-blue;
+                letter-spacing: -2px;
+                text-transform: uppercase;
+                i {
+                    font-family: $font-headings-serif;
+                    font-weight: normal;
+                    font-size: 58px;
+                    text-transform: lowercase;
+                }
+            }
+        }
+
+        .horizontal-divider {
+            width: calc(100% + 50px);
+            margin-left: -50px;
+        }
     }
 }
 
