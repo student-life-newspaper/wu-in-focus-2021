@@ -146,6 +146,31 @@ $color-dark-blue: #002d54;
     }
 }
 
+.image-wrapper-headline {
+    img {
+        width: 100%;
+        margin: auto
+    }
+    .credit {
+        width: 100%;
+        text-align: right;
+        font-family: $font-headings-sans;
+        font-weight: bold;
+        font-size: 0.6em;
+        margin-bottom: 7px;
+    }
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.italic {
+    font-style: italic;
+}
+
 #letter-from-the-editor {
     .article-contents {    
         .dear-readers {
@@ -191,24 +216,7 @@ $color-dark-blue: #002d54;
 }
 
 #sunday-morning {
-    .image-wrapper {
-        // width: 120%;
-        // margin-left: -12%;
-        img {
-            width: 100%;
-            margin: auto
-        }
-        .credit {
-            width: 100%;
-            text-align: right;
-            font-family: $font-headings-sans;
-            font-weight: bold;
-            font-size: 0.6em;
-            margin-bottom: 7px;
-        }
-    }
     .article-heading {
-        // margin-top: 6em;
         .title {
             font-family: $font-headings-sans;
             font-size: 40px;
@@ -239,6 +247,37 @@ $color-dark-blue: #002d54;
             width: calc(100% + 50px);
             margin-left: -50px;
         }
+    }
+}
+
+#freshman-sports {
+    .accordion {
+        z-index: 99999;
+    }
+    .article-heading {
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 50px;
+            color: $color-light-green;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 60px;
+            padding-right: 40px;
+            span {
+                // font-family: $font-headings-serif;
+                // font-style: normal;
+                // font-weight: bold;
+                font-size: 60px;
+                line-height: 50px;
+                // color: $color-dark-blue;
+                // letter-spacing: -2px;
+                // text-transform: uppercase;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: calc(100% + 50px);
+        margin-left: 0px;
     }
 }
 

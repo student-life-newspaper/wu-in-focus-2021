@@ -108,6 +108,22 @@
     padding-top: 6px;
     padding-right: 8px;
     padding-left: 3px; }
+#wu-in-focus-2021-container .image-wrapper-headline img {
+  width: 100%;
+  margin: auto; }
+#wu-in-focus-2021-container .image-wrapper-headline .credit {
+  width: 100%;
+  text-align: right;
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 0.6em;
+  margin-bottom: 7px; }
+#wu-in-focus-2021-container .all-caps {
+  text-transform: uppercase; }
+#wu-in-focus-2021-container .lowercase {
+  text-transform: lowercase; }
+#wu-in-focus-2021-container .italic {
+  font-style: italic; }
 #wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -135,16 +151,6 @@
     text-transform: none; }
 #wu-in-focus-2021-container #WUPD .article-heading .horizontal-divider {
   width: calc(100% + 30px); }
-#wu-in-focus-2021-container #sunday-morning .image-wrapper img {
-  width: 100%;
-  margin: auto; }
-#wu-in-focus-2021-container #sunday-morning .image-wrapper .credit {
-  width: 100%;
-  text-align: right;
-  font-family: "Futura", "Helvetica", sans-serif;
-  font-weight: bold;
-  font-size: 0.6em;
-  margin-bottom: 7px; }
 #wu-in-focus-2021-container #sunday-morning .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
@@ -170,6 +176,22 @@
 #wu-in-focus-2021-container #sunday-morning .article-heading .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: -50px; }
+#wu-in-focus-2021-container #freshman-sports .accordion {
+  z-index: 99999; }
+#wu-in-focus-2021-container #freshman-sports .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 50px;
+  color: #91cd92;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #freshman-sports .article-heading .title span {
+    font-size: 60px;
+    line-height: 50px; }
+#wu-in-focus-2021-container #freshman-sports .horizontal-divider {
+  width: calc(100% + 50px);
+  margin-left: 0px; }
 #wu-in-focus-2021-container .space {
   height: 100vh; }
 
