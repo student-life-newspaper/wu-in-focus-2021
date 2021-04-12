@@ -246,8 +246,9 @@
 #wu-in-focus-2021-container #coaches .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
-#wu-in-focus-2021-container #coaches .article-contents .note {
-  font-style: italic; }
+#wu-in-focus-2021-container #coaches .article-contents .ken {
+  width: 100%;
+  margin: 0; }
 #wu-in-focus-2021-container #coaches .article-contents .bold {
   font-weight: bold;
   margin-top: 2em;

@@ -351,8 +351,9 @@ $color-dark-blue: #002d54;
         margin-left: 0px;
     }
     .article-contents {
-        .note {
-            font-style: italic;
+        .ken {
+            width: 100%;
+            margin: 0;
         }
         .bold {
             font-weight: bold;
