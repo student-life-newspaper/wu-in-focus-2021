@@ -349,5 +349,24 @@
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
+#wu-in-focus-2021-container #changes .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 30px;
+  color: #94aad8;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 50px;
+  padding-right: 40px; }
+#wu-in-focus-2021-container #changes .horizontal-divider {
+  width: 100%;
+  margin: 0; }
+#wu-in-focus-2021-container #changes .article-contents .note {
+  font-style: italic; }
+#wu-in-focus-2021-container #changes .article-contents .bold {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
