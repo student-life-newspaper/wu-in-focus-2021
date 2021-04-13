@@ -1,8 +1,8 @@
-#wu-in-focus-2021-container .navbar {
+#wu-in-focus-2021-wrapper .navbar {
   background-color: #94aad8; }
-  #wu-in-focus-2021-container .navbar .navbar-brand img {
+  #wu-in-focus-2021-wrapper .navbar .navbar-brand img {
     height: 35px; }
-#wu-in-focus-2021-container .header {
+#wu-in-focus-2021-wrapper .header {
   width: 100%;
   height: 70vh;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
@@ -29,21 +29,21 @@
     opacity: 1;
     color: #fff;
     text-shadow: 0 0 0px rgba(255, 255, 255, 0.5); } }
-  #wu-in-focus-2021-container .header .project-title {
+  #wu-in-focus-2021-wrapper .header .project-title {
     font-size: 130px;
     padding-bottom: 12%;
     animation: fadeIn 2s ease-in-out 1s 1 normal; }
-#wu-in-focus-2021-container .year-wrapper {
+#wu-in-focus-2021-wrapper .year-wrapper {
   background-color: #91cd92; }
-  #wu-in-focus-2021-container .year-wrapper .year {
+  #wu-in-focus-2021-wrapper .year-wrapper .year {
     font-size: 30px;
     font-weight: normal;
     text-align: right;
     color: #fff; }
-#wu-in-focus-2021-container .accordion-button {
+#wu-in-focus-2021-wrapper .accordion-button {
   background-color: #fff !important;
   box-shadow: none !important; }
-#wu-in-focus-2021-container .article-heading .title {
+#wu-in-focus-2021-wrapper .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 80px;
   color: #91cd92;
@@ -51,7 +51,7 @@
   font-weight: bold;
   line-height: 90px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container .article-heading .title span {
+  #wu-in-focus-2021-wrapper .article-heading .title span {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 130px;
@@ -59,7 +59,7 @@
     color: #002d54;
     letter-spacing: -2px;
     text-transform: lowercase; }
-#wu-in-focus-2021-container .article-heading .horizontal-divider {
+#wu-in-focus-2021-wrapper .article-heading .horizontal-divider {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
   background: #94aad8;
   /* Old browsers */
@@ -75,30 +75,30 @@
   width: 80vw;
   margin-left: -30px;
   margin-top: -3px; }
-#wu-in-focus-2021-container .article-heading .author-info {
+#wu-in-focus-2021-wrapper .article-heading .author-info {
   font-size: 20px; }
-  #wu-in-focus-2021-container .article-heading .author-info .author {
+  #wu-in-focus-2021-wrapper .article-heading .author-info .author {
     font-weight: bold; }
-#wu-in-focus-2021-container .article-contents {
+#wu-in-focus-2021-wrapper .article-contents {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 1.5em; }
-  #wu-in-focus-2021-container .article-contents .image-wrapper {
+  #wu-in-focus-2021-wrapper .article-contents .image-wrapper {
     width: 160%;
     margin-left: -30%; }
-    #wu-in-focus-2021-container .article-contents .image-wrapper img {
+    #wu-in-focus-2021-wrapper .article-contents .image-wrapper img {
       width: 100%; }
-    #wu-in-focus-2021-container .article-contents .image-wrapper .credit {
+    #wu-in-focus-2021-wrapper .article-contents .image-wrapper .credit {
       width: 100%;
       text-align: right;
       font-family: "Futura", "Helvetica", sans-serif;
       font-weight: bold;
       font-size: 0.6em;
       margin-bottom: 7px; }
-    #wu-in-focus-2021-container .article-contents .image-wrapper .caption {
+    #wu-in-focus-2021-wrapper .article-contents .image-wrapper .caption {
       font-family: "Futura", "Helvetica", sans-serif;
       font-weight: normal;
       font-size: 0.6em; }
-  #wu-in-focus-2021-container .article-contents .dropcap-light-blue:first-letter {
+  #wu-in-focus-2021-wrapper .article-contents .dropcap-light-blue:first-letter {
     color: #94aad8;
     float: left;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -108,7 +108,7 @@
     padding-top: 6px;
     padding-right: 8px;
     padding-left: 3px; }
-  #wu-in-focus-2021-container .article-contents .dropcap-light-green:first-letter {
+  #wu-in-focus-2021-wrapper .article-contents .dropcap-light-green:first-letter {
     color: #91cd92;
     float: left;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -118,37 +118,37 @@
     padding-top: 6px;
     padding-right: 8px;
     padding-left: 3px; }
-#wu-in-focus-2021-container .image-wrapper-headline img {
+#wu-in-focus-2021-wrapper .image-wrapper-headline img {
   width: 100%;
   margin: auto; }
-#wu-in-focus-2021-container .image-wrapper-headline .credit {
+#wu-in-focus-2021-wrapper .image-wrapper-headline .credit {
   width: 100%;
   text-align: right;
   font-family: "Futura", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 0.6em;
   margin-bottom: 7px; }
-#wu-in-focus-2021-container .all-caps {
+#wu-in-focus-2021-wrapper .all-caps {
   text-transform: uppercase; }
-#wu-in-focus-2021-container .lowercase {
+#wu-in-focus-2021-wrapper .lowercase {
   text-transform: lowercase; }
-#wu-in-focus-2021-container .italic {
+#wu-in-focus-2021-wrapper .italic {
   font-style: italic; }
-#wu-in-focus-2021-container .text-light-green {
+#wu-in-focus-2021-wrapper .text-light-green {
   color: #91cd92; }
-#wu-in-focus-2021-container .text-light-blue {
+#wu-in-focus-2021-wrapper .text-light-blue {
   color: #94aad8; }
-#wu-in-focus-2021-container .text-dark-blue {
+#wu-in-focus-2021-wrapper .text-dark-blue {
   color: #002d54; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-contents .dear-readers {
+#wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
   color: #94aad8;
   font-size: 2.5em; }
-#wu-in-focus-2021-container #letter-from-the-editor .article-contents .signature {
+#wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .signature {
   width: 350px;
   margin-left: -30px; }
-#wu-in-focus-2021-container #WUPD .article-heading .title {
+#wu-in-focus-2021-wrapper #WUPD .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
   color: #94aad8;
@@ -156,7 +156,7 @@
   font-weight: bold;
   line-height: 60px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #WUPD .article-heading .title span {
+  #wu-in-focus-2021-wrapper #WUPD .article-heading .title span {
     font-family: "Futura", "Helvetica", sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -165,9 +165,9 @@
     color: #91cd92;
     letter-spacing: -2px;
     text-transform: none; }
-#wu-in-focus-2021-container #WUPD .article-heading .horizontal-divider {
+#wu-in-focus-2021-wrapper #WUPD .article-heading .horizontal-divider {
   width: calc(100% + 30px); }
-#wu-in-focus-2021-container #sunday-morning .article-heading .title {
+#wu-in-focus-2021-wrapper #sunday-morning .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
   color: #94aad8;
@@ -175,7 +175,7 @@
   font-weight: bold;
   line-height: 60px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #sunday-morning .article-heading .title span {
+  #wu-in-focus-2021-wrapper #sunday-morning .article-heading .title span {
     font-family: "Futura", "Helvetica", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -184,17 +184,17 @@
     color: #002d54;
     letter-spacing: -2px;
     text-transform: uppercase; }
-    #wu-in-focus-2021-container #sunday-morning .article-heading .title span i {
+    #wu-in-focus-2021-wrapper #sunday-morning .article-heading .title span i {
       font-family: Georgia, "Times New Roman", Times, serif;
       font-weight: normal;
       font-size: 58px;
       text-transform: lowercase; }
-#wu-in-focus-2021-container #sunday-morning .article-heading .horizontal-divider {
+#wu-in-focus-2021-wrapper #sunday-morning .article-heading .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: -50px; }
-#wu-in-focus-2021-container #freshman-sports .accordion {
+#wu-in-focus-2021-wrapper #freshman-sports .accordion {
   z-index: 99999; }
-#wu-in-focus-2021-container #freshman-sports .article-heading .title {
+#wu-in-focus-2021-wrapper #freshman-sports .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 50px;
   color: #91cd92;
@@ -202,13 +202,13 @@
   font-weight: bold;
   line-height: 60px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #freshman-sports .article-heading .title span {
+  #wu-in-focus-2021-wrapper #freshman-sports .article-heading .title span {
     font-size: 60px;
     line-height: 50px; }
-#wu-in-focus-2021-container #freshman-sports .horizontal-divider {
+#wu-in-focus-2021-wrapper #freshman-sports .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
-#wu-in-focus-2021-container #improve-mental-health .article-heading .title {
+#wu-in-focus-2021-wrapper #improve-mental-health .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
   color: #002d54;
@@ -216,22 +216,22 @@
   font-weight: bold;
   line-height: 50px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #improve-mental-health .article-heading .title div {
+  #wu-in-focus-2021-wrapper #improve-mental-health .article-heading .title div {
     display: inline; }
-  #wu-in-focus-2021-container #improve-mental-health .article-heading .title .italic {
+  #wu-in-focus-2021-wrapper #improve-mental-health .article-heading .title .italic {
     font-family: Georgia, "Times New Roman", Times, serif; }
-#wu-in-focus-2021-container #improve-mental-health .horizontal-divider {
+#wu-in-focus-2021-wrapper #improve-mental-health .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
-#wu-in-focus-2021-container #improve-mental-health .article-contents .note {
+#wu-in-focus-2021-wrapper #improve-mental-health .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-container #improve-mental-health .article-contents .bold {
+#wu-in-focus-2021-wrapper #improve-mental-health .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-container #new-reality .image-wrapper-headline img {
+#wu-in-focus-2021-wrapper #new-reality .image-wrapper-headline img {
   transform: rotate(-25deg); }
-#wu-in-focus-2021-container #new-reality .article-heading .title {
+#wu-in-focus-2021-wrapper #new-reality .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #94aad8;
   font-size: 40px;
@@ -240,31 +240,31 @@
   font-style: italic;
   line-height: 55px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #new-reality .article-heading .title div {
+  #wu-in-focus-2021-wrapper #new-reality .article-heading .title div {
     display: inline-block;
     font-size: 50px;
     font-style: normal;
     color: #002d54;
     text-transform: uppercase;
     font-family: "Futura", "Helvetica", sans-serif; }
-  #wu-in-focus-2021-container #new-reality .article-heading .title .serif {
+  #wu-in-focus-2021-wrapper #new-reality .article-heading .title .serif {
     display: inline;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 70px;
     line-height: 80px;
     text-transform: none; }
-#wu-in-focus-2021-container #new-reality .horizontal-divider {
+#wu-in-focus-2021-wrapper #new-reality .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
-#wu-in-focus-2021-container #new-reality .article-contents span {
+#wu-in-focus-2021-wrapper #new-reality .article-contents span {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 0.8em; }
-#wu-in-focus-2021-container #new-reality .article-contents .bold {
+#wu-in-focus-2021-wrapper #new-reality .article-contents .bold {
   font-weight: bold;
   margin-top: 2em;
   font-family: "Futura", "Helvetica", sans-serif; }
-#wu-in-focus-2021-container #coaches .article-heading .title {
+#wu-in-focus-2021-wrapper #coaches .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 25px;
   color: #002d54;
@@ -272,23 +272,23 @@
   font-weight: bold;
   line-height: 35px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #coaches .article-heading .title .serif {
+  #wu-in-focus-2021-wrapper #coaches .article-heading .title .serif {
     display: inline;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 70px;
     line-height: 80px;
     text-transform: none; }
-#wu-in-focus-2021-container #coaches .horizontal-divider {
+#wu-in-focus-2021-wrapper #coaches .horizontal-divider {
   width: 100%;
   margin-left: 0px; }
-#wu-in-focus-2021-container #coaches .article-contents .ken {
+#wu-in-focus-2021-wrapper #coaches .article-contents .ken {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-container #coaches .article-contents .bold {
+#wu-in-focus-2021-wrapper #coaches .article-contents .bold {
   font-weight: bold;
   margin-top: 2em;
   font-family: "Futura", "Helvetica", sans-serif; }
-#wu-in-focus-2021-container #esl .article-heading .title {
+#wu-in-focus-2021-wrapper #esl .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   color: #002d54;
@@ -297,7 +297,7 @@
   font-style: italic;
   line-height: 50px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #esl .article-heading .title .text-light-blue, #wu-in-focus-2021-container #esl .article-heading .title .text-dark-blue {
+  #wu-in-focus-2021-wrapper #esl .article-heading .title .text-light-blue, #wu-in-focus-2021-wrapper #esl .article-heading .title .text-dark-blue {
     font-weight: bold;
     color: #94aad8;
     font-family: "Futura", "Helvetica", sans-serif;
@@ -305,22 +305,22 @@
     font-style: normal;
     font-size: 35px;
     line-height: 20px; }
-  #wu-in-focus-2021-container #esl .article-heading .title .text-dark-blue {
+  #wu-in-focus-2021-wrapper #esl .article-heading .title .text-dark-blue {
     color: #002d54; }
-  #wu-in-focus-2021-container #esl .article-heading .title div {
+  #wu-in-focus-2021-wrapper #esl .article-heading .title div {
     display: inline; }
-  #wu-in-focus-2021-container #esl .article-heading .title .italic {
+  #wu-in-focus-2021-wrapper #esl .article-heading .title .italic {
     font-family: Georgia, "Times New Roman", Times, serif; }
-#wu-in-focus-2021-container #esl .horizontal-divider {
+#wu-in-focus-2021-wrapper #esl .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-container #esl .article-contents .note {
+#wu-in-focus-2021-wrapper #esl .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-container #esl .article-contents .bold {
+#wu-in-focus-2021-wrapper #esl .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-container #hearing .article-heading .title {
+#wu-in-focus-2021-wrapper #hearing .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 30px;
   color: #94aad8;
@@ -330,26 +330,26 @@
   font-weight: bold;
   line-height: 50px;
   padding-right: 40px; }
-  #wu-in-focus-2021-container #hearing .article-heading .title .larger {
+  #wu-in-focus-2021-wrapper #hearing .article-heading .title .larger {
     font-size: 50px;
     line-height: 60px;
     font-weight: bold;
     text-transform: none; }
-  #wu-in-focus-2021-container #hearing .article-heading .title .italic {
+  #wu-in-focus-2021-wrapper #hearing .article-heading .title .italic {
     font-size: 44px;
     color: #91cd92;
     line-height: 50px;
     font-weight: normal; }
-#wu-in-focus-2021-container #hearing .horizontal-divider {
+#wu-in-focus-2021-wrapper #hearing .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-container #hearing .article-contents .note {
+#wu-in-focus-2021-wrapper #hearing .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-container #hearing .article-contents .bold {
+#wu-in-focus-2021-wrapper #hearing .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-container #changes .article-heading .title {
+#wu-in-focus-2021-wrapper #changes .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 30px;
   color: #94aad8;
@@ -359,12 +359,12 @@
   font-weight: bold;
   line-height: 50px;
   padding-right: 40px; }
-#wu-in-focus-2021-container #changes .horizontal-divider {
+#wu-in-focus-2021-wrapper #changes .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-container #changes .article-contents .note {
+#wu-in-focus-2021-wrapper #changes .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-container #changes .article-contents .bold {
+#wu-in-focus-2021-wrapper #changes .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
