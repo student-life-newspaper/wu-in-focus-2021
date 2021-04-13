@@ -327,6 +327,57 @@ $color-dark-blue: #002d54;
     }
 }
 
+#new-reality {
+    .image-wrapper-headline {
+        img {
+            transform: rotate(-25deg);
+        }
+    }
+    .article-heading {
+        .title {
+            font-family: $font-headings-serif;
+            color: $color-light-blue;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: none;
+            font-style: italic;
+            line-height: 55px;
+            padding-right: 40px;
+            div {
+                display: inline-block;
+                font-size: 50px;
+                font-style: normal;
+                color: $color-dark-blue;
+                text-transform: uppercase;
+                font-family: $font-headings-sans;
+            }
+            .serif {
+                display: inline;
+                font-family: $font-headings-serif;
+                font-size: 70px;
+                line-height: 80px;
+                text-transform: none;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: calc(100% + 50px);
+        margin-left: 0px;
+    }
+    .article-contents {
+        span {
+            font-weight: bold;
+            font-family: $font-headings-sans;
+            font-size: 0.8em;
+        }
+        .bold {
+            font-weight: bold;
+            margin-top: 2em;
+            font-family: $font-headings-sans;
+        }
+    }
+}
+
 #coaches {
     .article-heading {
         .title {
@@ -392,6 +443,47 @@ $color-dark-blue: #002d54;
             }
             .italic {
                 font-family: $font-headings-serif;
+            }
+        }
+    }
+    .horizontal-divider {
+        width: 100%;
+        margin: 0;
+    }
+    .article-contents {
+        .note {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+            font-family: $font-headings-sans;
+            text-align: center;
+        }
+    }
+}
+#hearing {
+    .article-heading {
+        .title {
+            font-family: $font-headings-sans;
+            font-size: 30px;
+            color: $color-light-blue;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 50px;
+            padding-right: 40px;
+            .larger {
+                font-size: 50px;
+                line-height: 60px;
+                font-weight: bold;
+                text-transform: none;
+            }
+            .italic {
+                font-size: 44px;
+                color: $color-light-green;
+                line-height: 50px;
+                font-weight: normal;
             }
         }
     }

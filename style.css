@@ -229,6 +229,41 @@
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
+#wu-in-focus-2021-container #new-reality .image-wrapper-headline img {
+  transform: rotate(-25deg); }
+#wu-in-focus-2021-container #new-reality .article-heading .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #94aad8;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: none;
+  font-style: italic;
+  line-height: 55px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #new-reality .article-heading .title div {
+    display: inline-block;
+    font-size: 50px;
+    font-style: normal;
+    color: #002d54;
+    text-transform: uppercase;
+    font-family: "Futura", "Helvetica", sans-serif; }
+  #wu-in-focus-2021-container #new-reality .article-heading .title .serif {
+    display: inline;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: none; }
+#wu-in-focus-2021-container #new-reality .horizontal-divider {
+  width: calc(100% + 50px);
+  margin-left: 0px; }
+#wu-in-focus-2021-container #new-reality .article-contents span {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 0.8em; }
+#wu-in-focus-2021-container #new-reality .article-contents .bold {
+  font-weight: bold;
+  margin-top: 2em;
+  font-family: "Futura", "Helvetica", sans-serif; }
 #wu-in-focus-2021-container #coaches .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 25px;
@@ -282,6 +317,35 @@
 #wu-in-focus-2021-container #esl .article-contents .note {
   font-style: italic; }
 #wu-in-focus-2021-container #esl .article-contents .bold {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-align: center; }
+#wu-in-focus-2021-container #hearing .article-heading .title {
+  font-family: "Futura", "Helvetica", sans-serif;
+  font-size: 30px;
+  color: #94aad8;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 50px;
+  padding-right: 40px; }
+  #wu-in-focus-2021-container #hearing .article-heading .title .larger {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: none; }
+  #wu-in-focus-2021-container #hearing .article-heading .title .italic {
+    font-size: 44px;
+    color: #91cd92;
+    line-height: 50px;
+    font-weight: normal; }
+#wu-in-focus-2021-container #hearing .horizontal-divider {
+  width: 100%;
+  margin: 0; }
+#wu-in-focus-2021-container #hearing .article-contents .note {
+  font-style: italic; }
+#wu-in-focus-2021-container #hearing .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
