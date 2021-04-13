@@ -279,7 +279,7 @@
     line-height: 80px;
     text-transform: none; }
 #wu-in-focus-2021-container #coaches .horizontal-divider {
-  width: calc(100% + 50px);
+  width: 100%;
   margin-left: 0px; }
 #wu-in-focus-2021-container #coaches .article-contents .ken {
   width: 100%;
