@@ -505,11 +505,6 @@ $bp-xs: 415px;
 }
 
 #a-new-kind-of-reality {
-    .image-wrapper-headline {
-        img {
-            // transform: rotate(-25deg);
-        }
-    }
     .article-heading {
         .title {
             font-family: $font-headings-serif;
@@ -809,6 +804,10 @@ $bp-xs: 415px;
             text-align: center;
         }
     }
+}
+
+.footer-wrapper {
+    background-color: rgb(40, 40, 40);
 }
 
 }
