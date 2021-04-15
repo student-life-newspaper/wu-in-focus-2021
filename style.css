@@ -234,6 +234,18 @@
 #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: -50px; }
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    letter-spacing: normal; }
+    #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.4em;
+      letter-spacing: normal; }
+      #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title span i {
+        font-size: 1.3em;
+        letter-spacing: normal; } }
 #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .accordion {
   z-index: 99999; }
 #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title {
@@ -249,6 +261,16 @@
 #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .horizontal-divider {
   width: 100%;
   margin-left: 0px; }
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title {
+    font-size: 1.7em;
+    line-height: 1.2em; }
+    #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .image-wrapper-headline .caption {
+    display: none; } }
 #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
@@ -270,9 +292,17 @@
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-wrapper #new-reality .image-wrapper-headline img {
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title {
+    font-size: 1.7em;
+    line-height: 1.2em; }
+    #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      letter-spacing: normal; } }
+#wu-in-focus-2021-wrapper #a-new-kind-of-reality .image-wrapper-headline img {
   transform: rotate(-25deg); }
-#wu-in-focus-2021-wrapper #new-reality .article-heading .title {
+#wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #94aad8;
   font-size: 40px;
@@ -281,31 +311,39 @@
   font-style: italic;
   line-height: 55px;
   padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #new-reality .article-heading .title div {
+  #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title div {
     display: inline-block;
     font-size: 50px;
     font-style: normal;
     color: #002d54;
     text-transform: uppercase;
     font-family: "Futura", "Helvetica", sans-serif; }
-  #wu-in-focus-2021-wrapper #new-reality .article-heading .title .serif {
+  #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title .serif {
     display: inline;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 70px;
     line-height: 80px;
     text-transform: none; }
-#wu-in-focus-2021-wrapper #new-reality .horizontal-divider {
+#wu-in-focus-2021-wrapper #a-new-kind-of-reality .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: 0px; }
-#wu-in-focus-2021-wrapper #new-reality .article-contents span {
+#wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-contents span {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 0.8em; }
-#wu-in-focus-2021-wrapper #new-reality .article-contents .bold {
+#wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-contents .bold {
   font-weight: bold;
   margin-top: 2em;
   font-family: "Futura", "Helvetica", sans-serif; }
-#wu-in-focus-2021-wrapper #coaches .article-heading .title {
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title {
+    font-size: 1.7em;
+    line-height: 1.2em; }
+    #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title div, #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      letter-spacing: normal; } }
+#wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 25px;
   color: #002d54;
@@ -313,22 +351,32 @@
   font-weight: bold;
   line-height: 35px;
   padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #coaches .article-heading .title .serif {
+  #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title .serif {
     display: inline;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 70px;
     line-height: 80px;
     text-transform: none; }
-#wu-in-focus-2021-wrapper #coaches .horizontal-divider {
+#wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .horizontal-divider {
   width: 100%;
   margin-left: 0px; }
-#wu-in-focus-2021-wrapper #coaches .article-contents .ken {
+#wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-contents .ken {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-wrapper #coaches .article-contents .bold {
+  #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-contents .ken img {
+    width: 100%; }
+#wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-contents .bold {
   font-weight: bold;
   margin-top: 2em;
   font-family: "Futura", "Helvetica", sans-serif; }
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title {
+    font-size: 1.2em;
+    line-height: 1.4em; }
+    #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title .serif, #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      letter-spacing: normal; } }
 #wu-in-focus-2021-wrapper #esl .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;

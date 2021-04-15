@@ -340,6 +340,24 @@ $bp-xs: 415px;
             margin-left: -50px;
         }
     }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.2em;
+                line-height: 1.4em;
+                letter-spacing: normal;
+                span {
+                    font-size: 1.1em;
+                    line-height: 1.4em;
+                    letter-spacing: normal;
+                    i {
+                        font-size: 1.3em;
+                        letter-spacing: normal;
+                    }
+                }
+            }
+        }
+    }
 }
 
 #a-pandemic-disrupted-first-year-of-college-sports {
@@ -363,6 +381,24 @@ $bp-xs: 415px;
     .horizontal-divider {
         width: 100%;
         margin-left: 0px;
+    }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.7em;
+                line-height: 1.2em;
+                span {
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                    letter-spacing: normal;
+                }
+            }
+        }
+        .image-wrapper-headline {
+            .caption {
+                display: none;
+            }
+        }
     }
 }
 
@@ -398,9 +434,22 @@ $bp-xs: 415px;
             text-align: center;
         }
     }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.7em;
+                line-height: 1.2em;
+                span {
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                    letter-spacing: normal;
+                }
+            }
+        }
+    }
 }
 
-#new-reality {
+#a-new-kind-of-reality {
     .image-wrapper-headline {
         img {
             transform: rotate(-25deg);
@@ -449,9 +498,22 @@ $bp-xs: 415px;
             font-family: $font-headings-sans;
         }
     }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.7em;
+                line-height: 1.2em;
+                div, span {
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                    letter-spacing: normal;
+                }
+            }
+        }
+    }
 }
 
-#coaches {
+#there-has-to-be-a-way-to-do-a-better-job {
     .article-heading {
         .title {
             font-family: $font-headings-sans;
@@ -478,11 +540,27 @@ $bp-xs: 415px;
         .ken {
             width: 100%;
             margin: 0;
+            img {
+                width: 100%;
+            }
         }
         .bold {
             font-weight: bold;
             margin-top: 2em;
             font-family: $font-headings-sans;
+        }
+    }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.2em;
+                line-height: 1.4em;
+                .serif, span {
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                    letter-spacing: normal;
+                }
+            }
         }
     }
 }
