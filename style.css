@@ -58,8 +58,7 @@
   color: #91cd92;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 90px;
-  padding-right: 40px; }
+  line-height: 90px; }
   #wu-in-focus-2021-wrapper .article-heading .title span {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -162,9 +161,8 @@
 #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .signature {
   width: 350px;
   margin-left: -30px; }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .title {
-    padding-right: 20px;
     font-size: 3em;
     line-height: 1.2em; }
     #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .title span {
@@ -178,7 +176,7 @@
   #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .signature {
     width: 250px;
     margin-left: -10px; } }
-#wu-in-focus-2021-wrapper #WUPD .article-heading .title {
+#wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
   color: #94aad8;
@@ -186,7 +184,7 @@
   font-weight: bold;
   line-height: 60px;
   padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #WUPD .article-heading .title span {
+  #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .title span {
     font-family: "Futura", "Helvetica", sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -195,17 +193,31 @@
     color: #91cd92;
     letter-spacing: -2px;
     text-transform: none; }
-#wu-in-focus-2021-wrapper #WUPD .article-heading .horizontal-divider {
+#wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .horizontal-divider {
   width: calc(100% + 30px); }
-#wu-in-focus-2021-wrapper #sunday-morning .article-heading .title {
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .title {
+    font-size: 2.2em;
+    line-height: 1.2em; }
+    #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .title span {
+      font-size: 1.1em;
+      line-height: 1.2em; }
+  #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-contents .dear-readers {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #94aad8;
+    font-size: 1.5em; }
+  #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-contents .signature {
+    width: 250px;
+    margin-left: -10px; } }
+#wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
   color: #94aad8;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 60px;
-  padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #sunday-morning .article-heading .title span {
+  line-height: 60px; }
+  #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title span {
     font-family: "Futura", "Helvetica", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -214,29 +226,28 @@
     color: #002d54;
     letter-spacing: -2px;
     text-transform: uppercase; }
-    #wu-in-focus-2021-wrapper #sunday-morning .article-heading .title span i {
+    #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title span i {
       font-family: Georgia, "Times New Roman", Times, serif;
       font-weight: normal;
       font-size: 58px;
       text-transform: lowercase; }
-#wu-in-focus-2021-wrapper #sunday-morning .article-heading .horizontal-divider {
+#wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .horizontal-divider {
   width: calc(100% + 50px);
   margin-left: -50px; }
-#wu-in-focus-2021-wrapper #freshman-sports .accordion {
+#wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .accordion {
   z-index: 99999; }
-#wu-in-focus-2021-wrapper #freshman-sports .article-heading .title {
+#wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   color: #91cd92;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 60px;
-  padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #freshman-sports .article-heading .title span {
-    font-size: 60px;
-    line-height: 50px; }
-#wu-in-focus-2021-wrapper #freshman-sports .horizontal-divider {
-  width: calc(100% + 50px);
+  line-height: 55px; }
+  #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title span {
+    font-size: 55px;
+    line-height: 45px; }
+#wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .horizontal-divider {
+  width: 100%;
   margin-left: 0px; }
 #wu-in-focus-2021-wrapper #improve-mental-health .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;

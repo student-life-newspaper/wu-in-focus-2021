@@ -89,7 +89,6 @@ $bp-xs: 415px;
         text-transform: uppercase;
         font-weight: bold;
         line-height: 90px;
-        padding-right: 40px;
         span {
             font-family: $font-headings-serif;
             font-style: italic;
@@ -224,10 +223,9 @@ $bp-xs: 415px;
         }
     }
     
-    @media (max-width: $bp-sm) {
+    @media (max-width: $bp-md) {
         .article-heading {
             .title {
-                padding-right: 20px;
                 font-size: 3em;
                 line-height: 1.2em;
                 span {
@@ -254,7 +252,7 @@ $bp-xs: 415px;
 
 }
 
-#WUPD {
+#police-presence-usually-is-less-about-students-security {
     .article-heading {
         .title {
             font-family: $font-headings-sans;
@@ -280,9 +278,37 @@ $bp-xs: 415px;
             width: calc(100% + 30px);
         }
     }
+
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 2.2em;
+                line-height: 1.2em;
+                span {
+                    font-size: 1.1em;
+                    line-height: 1.2em;
+                }
+            }
+        }
+        
+        .article-contents {    
+            .dear-readers {
+                font-family: $font-headings-serif;
+                font-style: italic;
+                color: $color-light-blue;
+                font-size: 1.5em;
+            }
+        
+            .signature {
+                width: 250px;
+                margin-left: -10px;
+            }
+        }
+    }
+
 }
 
-#sunday-morning {
+#sunday-morning-blues {
     .article-heading {
         .title {
             font-family: $font-headings-sans;
@@ -291,7 +317,6 @@ $bp-xs: 415px;
             text-transform: uppercase;
             font-weight: bold;
             line-height: 60px;
-            padding-right: 40px;
             span {
                 font-family: $font-headings-sans;
                 font-style: normal;
@@ -317,27 +342,26 @@ $bp-xs: 415px;
     }
 }
 
-#freshman-sports {
+#a-pandemic-disrupted-first-year-of-college-sports {
     .accordion {
         z-index: 99999;
     }
     .article-heading {
         .title {
             font-family: $font-headings-sans;
-            font-size: 50px;
+            font-size: 45px;
             color: $color-light-green;
             text-transform: uppercase;
             font-weight: bold;
-            line-height: 60px;
-            padding-right: 40px;
+            line-height: 55px;
             span {
-                font-size: 60px;
-                line-height: 50px;
+                font-size: 55px;
+                line-height: 45px;
             }
         }
     }
     .horizontal-divider {
-        width: calc(100% + 50px);
+        width: 100%;
         margin-left: 0px;
     }
 }
