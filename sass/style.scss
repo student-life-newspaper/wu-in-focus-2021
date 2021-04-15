@@ -52,7 +52,8 @@ $bp-xs: 415px;
         font-size: 130px;
         padding-bottom: 12%;
         animation: fadeIn 2s ease-in-out 1s 1 normal;
-
+        animation-fill-mode:forwards;
+        opacity: 0;
         @media (max-width: $bp-xs) {
             font-size: 92px;
         }

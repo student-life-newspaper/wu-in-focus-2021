@@ -30,7 +30,9 @@
   #wu-in-focus-2021-wrapper .header .project-title {
     font-size: 130px;
     padding-bottom: 12%;
-    animation: fadeIn 2s ease-in-out 1s 1 normal; }
+    animation: fadeIn 2s ease-in-out 1s 1 normal;
+    animation-fill-mode: forwards;
+    opacity: 0; }
     @media (max-width: 415px) {
       #wu-in-focus-2021-wrapper .header .project-title {
         font-size: 92px; } }
