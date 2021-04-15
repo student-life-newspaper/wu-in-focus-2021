@@ -6,6 +6,10 @@ $color-light-green: #91cd92;
 $color-light-blue: #94aad8;
 $color-dark-blue: #002d54;
 
+$bp-md: 768px;
+$bp-sm: 576px;
+$bp-xs: 415px;
+
 #wu-in-focus-2021-wrapper {
 
 .navbar {
@@ -46,6 +50,10 @@ $color-dark-blue: #002d54;
         font-size: 130px;
         padding-bottom: 12%;
         animation: fadeIn 2s ease-in-out 1s 1 normal;
+
+        @media (max-width: $bp-xs) {
+            font-size: 92px;
+        }
     }
 
 }
@@ -63,6 +71,9 @@ $color-dark-blue: #002d54;
 .accordion-button {
     background-color: #fff !important;
     box-shadow: none !important;
+}
+.accordion-item {
+    border: none !important;
 }
 
 .article-heading {
@@ -106,12 +117,20 @@ $color-dark-blue: #002d54;
 .article-contents {
     font-family: $font-body;
     font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
     .image-wrapper {
-        width: 160%;
-        margin-left: -30%;
-        img {
-            width: 100%;
+        width: 150%;
+        max-width: 95vw;
+        flex-shrink: 0;
+        .centered-image {
+            
+            img {
+                width: 100%;
+                max-width: 95vw;
+            }
         }
         .credit {
             width: 100%;
@@ -199,6 +218,35 @@ $color-dark-blue: #002d54;
             margin-left: -30px;
         }
     }
+    
+    @media (max-width: $bp-sm) {
+        .article-heading {
+            .title {
+                padding-right: 20px;
+                font-size: 3em;
+                line-height: 1.2em;
+                span {
+                    font-size: 1.5em;
+                    line-height: 1.2em;
+                }
+            }
+        }
+        
+        .article-contents {    
+            .dear-readers {
+                font-family: $font-headings-serif;
+                font-style: italic;
+                color: $color-light-blue;
+                font-size: 1.5em;
+            }
+        
+            .signature {
+                width: 250px;
+                margin-left: -10px;
+            }
+        }
+    }
+
 }
 
 #WUPD {

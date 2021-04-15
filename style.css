@@ -33,6 +33,9 @@
     font-size: 130px;
     padding-bottom: 12%;
     animation: fadeIn 2s ease-in-out 1s 1 normal; }
+    @media (max-width: 415px) {
+      #wu-in-focus-2021-wrapper .header .project-title {
+        font-size: 92px; } }
 #wu-in-focus-2021-wrapper .year-wrapper {
   background-color: #91cd92; }
   #wu-in-focus-2021-wrapper .year-wrapper .year {
@@ -43,6 +46,8 @@
 #wu-in-focus-2021-wrapper .accordion-button {
   background-color: #fff !important;
   box-shadow: none !important; }
+#wu-in-focus-2021-wrapper .accordion-item {
+  border: none !important; }
 #wu-in-focus-2021-wrapper .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 80px;
@@ -81,12 +86,17 @@
     font-weight: bold; }
 #wu-in-focus-2021-wrapper .article-contents {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
   #wu-in-focus-2021-wrapper .article-contents .image-wrapper {
-    width: 160%;
-    margin-left: -30%; }
-    #wu-in-focus-2021-wrapper .article-contents .image-wrapper img {
-      width: 100%; }
+    width: 150%;
+    max-width: 95vw;
+    flex-shrink: 0; }
+    #wu-in-focus-2021-wrapper .article-contents .image-wrapper .centered-image img {
+      width: 100%;
+      max-width: 95vw; }
     #wu-in-focus-2021-wrapper .article-contents .image-wrapper .credit {
       width: 100%;
       text-align: right;
@@ -148,6 +158,22 @@
 #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .signature {
   width: 350px;
   margin-left: -30px; }
+@media (max-width: 576px) {
+  #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .title {
+    padding-right: 20px;
+    font-size: 3em;
+    line-height: 1.2em; }
+    #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .title span {
+      font-size: 1.5em;
+      line-height: 1.2em; }
+  #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .dear-readers {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #94aad8;
+    font-size: 1.5em; }
+  #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .signature {
+    width: 250px;
+    margin-left: -10px; } }
 #wu-in-focus-2021-wrapper #WUPD .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 40px;
