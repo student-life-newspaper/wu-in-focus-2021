@@ -1,11 +1,6 @@
-#wu-in-focus-2021-wrapper .navbar {
-  background-color: #94aad8; }
-  #wu-in-focus-2021-wrapper .navbar .navbar-brand img {
-    height: 35px; }
-#wu-in-focus-2021-wrapper .header {
-  width: 100%;
-  height: 70vh;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
+#wu-in-focus-2021-wrapper .navbar .navbar-brand img {
+  height: 35px; }
+#wu-in-focus-2021-wrapper .gradient-wrapper {
   background: #94aad8;
   /* Old browsers */
   background: -moz-linear-gradient(top, #94aad8 0%, #91cd92 100%);
@@ -15,7 +10,10 @@
   background: linear-gradient(to bottom, #94aad8 0%, #91cd92 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=0 );
-  /* IE6-9 */
+  /* IE6-9 */ }
+#wu-in-focus-2021-wrapper .header {
+  width: 100%;
+  height: 70vh;
   font-family: "Futura", "Helvetica", sans-serif;
   font-weight: bold;
   color: #fff;
@@ -36,13 +34,11 @@
     @media (max-width: 415px) {
       #wu-in-focus-2021-wrapper .header .project-title {
         font-size: 92px; } }
-#wu-in-focus-2021-wrapper .year-wrapper {
-  background-color: #91cd92; }
-  #wu-in-focus-2021-wrapper .year-wrapper .year {
-    font-size: 30px;
-    font-weight: normal;
-    text-align: right;
-    color: #fff; }
+#wu-in-focus-2021-wrapper .year-wrapper .year {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff; }
 #wu-in-focus-2021-wrapper .accordion-button {
   background-color: #fff !important;
   box-shadow: none !important; }
@@ -161,7 +157,8 @@
     flex-wrap: nowrap;
     flex-direction: row; }
   #wu-in-focus-2021-wrapper #table-of-contents .article-heading img {
-    padding: 1em; }
+    padding: 1em;
+    padding-left: 0; }
   #wu-in-focus-2021-wrapper #table-of-contents .article-heading .title {
     color: #002d54;
     font-size: 60px; }
@@ -172,6 +169,10 @@
   color: #002d54;
   border: none;
   padding: 0.3em 1em; }
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #table-of-contents .article-heading .title {
+    color: #002d54;
+    font-size: 40px; } }
 #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;

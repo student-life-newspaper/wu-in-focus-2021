@@ -13,21 +13,23 @@ $bp-xs: 415px;
 #wu-in-focus-2021-wrapper {
 
 .navbar {
-    background-color: #94aad8;
+    // background-color: #94aad8;
     .navbar-brand img{
         height: 35px;
     }
 }
 
-.header {
-    width: 100%;
-    height: 70vh;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94aad8+0,91cd92+100 */
+.gradient-wrapper {    
     background: #94aad8; /* Old browsers */
     background: -moz-linear-gradient(top,  #94aad8 0%, #91cd92 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #94aad8 0%,#91cd92 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #94aad8 0%,#91cd92 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=0 ); /* IE6-9 */
+}
+
+.header {
+    width: 100%;
+    height: 70vh;
     font-family: $font-headings-sans;
     font-weight: bold;
     color: #fff;
@@ -59,15 +61,15 @@ $bp-xs: 415px;
 }
 
 .year-wrapper {
-    background-color: $color-light-green;
-
+    // background-color: $color-light-green;
     .year {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: normal;
-        text-align: right;
+        text-align: center;
         color: #fff;
     }
 }
+
 .accordion-button {
     background-color: #fff !important;
     box-shadow: none !important;
@@ -219,6 +221,7 @@ $bp-xs: 415px;
         }
         img {
             padding: 1em;
+            padding-left: 0;
         }
         .title {
             color: $color-dark-blue;
@@ -232,6 +235,15 @@ $bp-xs: 415px;
         color: $color-dark-blue;
         border: none;
         padding: 0.3em 1em;
+    }
+
+    @media (max-width: $bp-md) {
+    .article-heading {
+        .title {
+            color: $color-dark-blue;
+            font-size: 40px;
+        }
+    }
     }
 }
 
