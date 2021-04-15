@@ -701,7 +701,7 @@
                 </div>
             </div>
 
-            <div id="hearing-in-and-out-of-the-classroom" class="mt-5">
+            <div id="hearing-in-and-out-of-the-classroom" class="mt-5 story">
                 <div class="row justify-content-md-center">
                     <div class="col-md-8 order-md-0">
                         <div class="article-heading">
@@ -747,7 +747,7 @@
                 </div>
             </div>
             
-            <div id="wu-students-advocate-for-changes-on-campus" class="mt-5">
+            <div id="wu-students-advocate-for-changes-on-campus" class="mt-5 story">
                 <div class="row justify-content-md-center">
                     <div class="col-md-8">
                         <div class="article-heading">
@@ -764,7 +764,7 @@
                 </div>
 
                 <div class="row">
-                    <div id="collapseChanges" class="collapse col-md-6 offset-md-3 mt-4">
+                    <div id="collapseChanges" class="collapse col-md-6 offset-md-3 mt-4" data-parent="#wu-in-focus-2021-container">
                         <div class="article-contents">
                             <div class="article-text">
                                 <p class="dropcap-light-blue">Washington University students are fighting back against the national rise in Anti-Asian hate that has spread across the country since the onset of the pandemic. Students are thinking of both short term ways to build community in the face of bigotry and long term plans to create a more culturally competent community.</p>
@@ -820,7 +820,7 @@
                 </div>
             </div>
 
-            <div id="audio" class="row my-5">
+            <div id="audio" class="row story my-5">
                 <div class="col-md-8 offset-md-2">
                     <img style="width:100%" src="img/editor'snotewuinfocus-04.jpeg" alt="Podcast">
                     <div class="article-heading mt-4">
@@ -834,7 +834,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="collapsePodcast" class="collapse col-md-6 offset-md-3 mt-4">
+                    <div id="collapsePodcast" class="collapse col-md-6 offset-md-3 mt-4" data-parent="#wu-in-focus-2021-container">
                         <div class="article-contents">
                             <div class="article-text">
                                 <p class="dropcap-light-blue">From 4 a.m. classes to social isolation, international students have been through a lot this year. In this special edition of Editor's Note, Senior Multimedia Editor Jaden Satenstein speaks with Washington University students about their experiences studying from outside of the United States during the COVID-19 pandemic. This episode is part of WU in Focus, a special issue taking a closer look at the issues that matter to the University community. Theme music by Copy Chief JJ Coley.</p>
@@ -914,8 +914,20 @@
             </div>
         </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <script src="https://www.buzzsprout.com/1332718/8338933-editor-s-note-international-students-study-from-across-the-globe.js?container_id=buzzsprout-player-8338933&player=small" type="text/javascript" charset="utf-8"></script>
+
+
+<script>
+    $('.collapse').on('shown.bs.collapse', function(e) {
+    var $card = $(this).closest('.story');
+    $('html,body').animate({
+    scrollTop: $card.offset().top - 50
+    }, 500);
+    });
+</script>
 </body>
 </html>
