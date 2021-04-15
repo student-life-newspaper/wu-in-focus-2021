@@ -168,6 +168,9 @@
     #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .title span {
       font-size: 1.5em;
       line-height: 1.2em; }
+  #wu-in-focus-2021-wrapper #letter-from-the-editor .article-heading .horizontal-divider {
+    width: 100%;
+    margin: 0; }
   #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .dear-readers {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -202,6 +205,9 @@
     #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .title span {
       font-size: 1.1em;
       line-height: 1.2em; }
+  #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-heading .horizontal-divider {
+    width: 100%;
+    margin: 0; }
   #wu-in-focus-2021-wrapper #police-presence-usually-is-less-about-students-security .article-contents .dear-readers {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -245,7 +251,10 @@
       letter-spacing: normal; }
       #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .title span i {
         font-size: 1.3em;
-        letter-spacing: normal; } }
+        letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #sunday-morning-blues .article-heading .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
 #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .accordion {
   z-index: 99999; }
 #wu-in-focus-2021-wrapper #a-pandemic-disrupted-first-year-of-college-sports .article-heading .title {
@@ -299,9 +308,10 @@
     #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title span {
       font-size: 1.1em;
       line-height: 1.2em;
-      letter-spacing: normal; } }
-#wu-in-focus-2021-wrapper #a-new-kind-of-reality .image-wrapper-headline img {
-  transform: rotate(-25deg); }
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
 #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #94aad8;
@@ -342,7 +352,10 @@
     #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title div, #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title span {
       font-size: 1.1em;
       line-height: 1.2em;
-      letter-spacing: normal; } }
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #a-new-kind-of-reality .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
 #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 25px;
@@ -376,8 +389,11 @@
     #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title .serif, #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title span {
       font-size: 1.1em;
       line-height: 1.2em;
-      letter-spacing: normal; } }
-#wu-in-focus-2021-wrapper #esl .article-heading .title {
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
+#wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   color: #002d54;
@@ -386,7 +402,7 @@
   font-style: italic;
   line-height: 50px;
   padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #esl .article-heading .title .text-light-blue, #wu-in-focus-2021-wrapper #esl .article-heading .title .text-dark-blue {
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-light-blue, #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-dark-blue {
     font-weight: bold;
     color: #94aad8;
     font-family: "Futura", "Helvetica", sans-serif;
@@ -394,22 +410,33 @@
     font-style: normal;
     font-size: 35px;
     line-height: 20px; }
-  #wu-in-focus-2021-wrapper #esl .article-heading .title .text-dark-blue {
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-dark-blue {
     color: #002d54; }
-  #wu-in-focus-2021-wrapper #esl .article-heading .title div {
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title div {
     display: inline; }
-  #wu-in-focus-2021-wrapper #esl .article-heading .title .italic {
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .italic {
     font-family: Georgia, "Times New Roman", Times, serif; }
-#wu-in-focus-2021-wrapper #esl .horizontal-divider {
+#wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-wrapper #esl .article-contents .note {
+#wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-wrapper #esl .article-contents .bold {
+#wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-wrapper #hearing .article-heading .title {
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title {
+    font-size: 1.3em;
+    line-height: 1.4em; }
+    #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-light-blue, #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-dark-blue {
+      font-size: 1.3em;
+      line-height: 1.1em;
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
+#wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 30px;
   color: #94aad8;
@@ -419,26 +446,41 @@
   font-weight: bold;
   line-height: 50px;
   padding-right: 40px; }
-  #wu-in-focus-2021-wrapper #hearing .article-heading .title .larger {
+  #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title .larger {
     font-size: 50px;
     line-height: 60px;
     font-weight: bold;
     text-transform: none; }
-  #wu-in-focus-2021-wrapper #hearing .article-heading .title .italic {
+  #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title .italic {
     font-size: 44px;
     color: #91cd92;
     line-height: 50px;
     font-weight: normal; }
-#wu-in-focus-2021-wrapper #hearing .horizontal-divider {
+#wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-wrapper #hearing .article-contents .note {
+#wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-wrapper #hearing .article-contents .bold {
+#wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
-#wu-in-focus-2021-wrapper #changes .article-heading .title {
+@media (max-width: 768px) {
+  #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title {
+    font-size: 1.3em;
+    line-height: 1.4em; }
+    #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title .larger {
+      font-size: 1.4em;
+      line-height: 1.1em;
+      letter-spacing: normal; }
+    #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title .italic {
+      font-size: 1.4em;
+      line-height: 1.1em;
+      letter-spacing: normal; }
+  #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .horizontal-divider {
+    width: 100%;
+    margin: 0; } }
+#wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
   font-size: 30px;
   color: #94aad8;
@@ -448,12 +490,12 @@
   font-weight: bold;
   line-height: 50px;
   padding-right: 40px; }
-#wu-in-focus-2021-wrapper #changes .horizontal-divider {
+#wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .horizontal-divider {
   width: 100%;
   margin: 0; }
-#wu-in-focus-2021-wrapper #changes .article-contents .note {
+#wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .article-contents .note {
   font-style: italic; }
-#wu-in-focus-2021-wrapper #changes .article-contents .bold {
+#wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }

@@ -233,6 +233,10 @@ $bp-xs: 415px;
                     line-height: 1.2em;
                 }
             }
+            .horizontal-divider {
+                width: 100%;
+                margin: 0;
+            }
         }
         
         .article-contents {    
@@ -288,6 +292,10 @@ $bp-xs: 415px;
                     font-size: 1.1em;
                     line-height: 1.2em;
                 }
+            }
+            .horizontal-divider {
+                width: 100%;
+                margin: 0;
             }
         }
         
@@ -355,6 +363,10 @@ $bp-xs: 415px;
                         letter-spacing: normal;
                     }
                 }
+            }
+            .horizontal-divider {
+                width: 100%;
+                margin: 0;
             }
         }
     }
@@ -445,6 +457,10 @@ $bp-xs: 415px;
                     letter-spacing: normal;
                 }
             }
+            .horizontal-divider {
+                width: 100%;
+                margin: 0;
+            }
         }
     }
 }
@@ -452,7 +468,7 @@ $bp-xs: 415px;
 #a-new-kind-of-reality {
     .image-wrapper-headline {
         img {
-            transform: rotate(-25deg);
+            // transform: rotate(-25deg);
         }
     }
     .article-heading {
@@ -510,6 +526,10 @@ $bp-xs: 415px;
                 }
             }
         }
+        .horizontal-divider {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
 
@@ -562,10 +582,14 @@ $bp-xs: 415px;
                 }
             }
         }
+        .horizontal-divider {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
 
-#esl {
+#esl-students-share-their-experience-at-WU {
     .article-heading {
         .title {
             font-family: $font-headings-serif;
@@ -611,9 +635,26 @@ $bp-xs: 415px;
             text-align: center;
         }
     }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.3em;
+                line-height: 1.4em;
+                .text-light-blue, .text-dark-blue {
+                    font-size: 1.3em;
+                    line-height: 1.1em;
+                    letter-spacing: normal;
+                }
+            }
+        }
+        .horizontal-divider {
+            width: 100%;
+            margin: 0;
+        }
+    }
 }
 
-#hearing {
+#hearing-in-and-out-of-the-classroom {
     .article-heading {
         .title {
             font-family: $font-headings-sans;
@@ -653,9 +694,31 @@ $bp-xs: 415px;
             text-align: center;
         }
     }
+    @media (max-width: $bp-md) {
+        .article-heading {
+            .title {
+                font-size: 1.3em;
+                line-height: 1.4em;
+                .larger{
+                    font-size: 1.4em;
+                    line-height: 1.1em;
+                    letter-spacing: normal;
+                }
+                .italic {
+                    font-size: 1.4em;
+                    line-height: 1.1em;
+                    letter-spacing: normal;
+                }
+            }
+        }
+        .horizontal-divider {
+            width: 100%;
+            margin: 0;
+        }
+    }
 }
 
-#changes {
+#wu-students-advocate-for-changes-on-campus {
     .article-heading {
         .title {
             font-family: $font-headings-sans;
