@@ -80,8 +80,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=1 );
   /* IE6-9 */
   height: 7px;
-  width: 80vw;
-  margin-left: -30px;
+  width: 100%;
+  margin-left: 0px;
   margin-top: -3px; }
 #wu-in-focus-2021-wrapper .article-heading .author-info {
   font-size: 20px; }
@@ -153,6 +153,25 @@
   color: #94aad8; }
 #wu-in-focus-2021-wrapper .text-dark-blue {
   color: #002d54; }
+#wu-in-focus-2021-wrapper #table-of-contents .article-heading {
+  text-align: center !important; }
+  #wu-in-focus-2021-wrapper #table-of-contents .article-heading button {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row; }
+  #wu-in-focus-2021-wrapper #table-of-contents .article-heading img {
+    padding: 1em; }
+  #wu-in-focus-2021-wrapper #table-of-contents .article-heading .title {
+    color: #002d54;
+    font-size: 60px; }
+#wu-in-focus-2021-wrapper #table-of-contents a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  color: #002d54;
+  border: none;
+  padding: 0.3em 1em; }
 #wu-in-focus-2021-wrapper #letter-from-the-editor .article-contents .dear-readers {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;

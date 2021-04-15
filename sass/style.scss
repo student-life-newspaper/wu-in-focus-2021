@@ -107,8 +107,8 @@ $bp-xs: 415px;
         background: linear-gradient(to right,  #94aad8 0%,#91cd92 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94aad8', endColorstr='#91cd92',GradientType=1 ); /* IE6-9 */
         height: 7px;
-        width: 80vw;
-        margin-left: -30px;
+        width: 100%;
+        margin-left: 0px;
         margin-top: -3px;
     }
     .author-info {
@@ -206,6 +206,33 @@ $bp-xs: 415px;
 }
 .text-dark-blue {
     color: $color-dark-blue;
+}
+
+#table-of-contents {
+    .article-heading {
+        text-align: center !important;
+        button {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+        img {
+            padding: 1em;
+        }
+        .title {
+            color: $color-dark-blue;
+            font-size: 60px;
+        }
+    }
+    a {
+        font-family: $font-headings-serif;
+        font-size: 25px;
+        font-style: italic;
+        color: $color-dark-blue;
+        border: none;
+        padding: 0.3em 1em;
+    }
 }
 
 #letter-from-the-editor {
