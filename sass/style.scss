@@ -423,7 +423,6 @@ $bp-xs: 415px;
             text-transform: uppercase;
             font-weight: bold;
             line-height: 50px;
-            padding-right: 40px;
             div {
                 display: inline;
             }
@@ -480,7 +479,6 @@ $bp-xs: 415px;
             text-transform: none;
             font-style: italic;
             line-height: 55px;
-            padding-right: 40px;
             div {
                 display: inline-block;
                 font-size: 50px;
@@ -542,7 +540,6 @@ $bp-xs: 415px;
             text-transform: uppercase;
             font-weight: bold;
             line-height: 35px;
-            padding-right: 40px;
             .serif {
                 display: inline;
                 font-family: $font-headings-serif;
@@ -599,7 +596,6 @@ $bp-xs: 415px;
             font-weight: 500;
             font-style: italic;
             line-height: 50px;
-            padding-right: 40px;
             .text-light-blue, .text-dark-blue {
                 font-weight: bold;
                 color: $color-light-blue;
@@ -665,7 +661,6 @@ $bp-xs: 415px;
             font-style: normal;
             font-weight: bold;
             line-height: 50px;
-            padding-right: 40px;
             .larger {
                 font-size: 50px;
                 line-height: 60px;
@@ -729,7 +724,35 @@ $bp-xs: 415px;
             font-style: normal;
             font-weight: bold;
             line-height: 50px;
-            padding-right: 40px;
+        }
+    }
+    .horizontal-divider {
+        width: 100%;
+        margin: 0;
+    }
+    .article-contents {
+        .note {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+            font-family: $font-headings-sans;
+            text-align: center;
+        }
+    }
+}
+
+#audio {
+    .article-heading {
+        .title {
+            font-family: $font-headings-serif;
+            font-size: 30px;
+            color: $color-dark-blue;
+            text-transform: none;
+            font-weight: 500;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 40px;
         }
     }
     .horizontal-divider {

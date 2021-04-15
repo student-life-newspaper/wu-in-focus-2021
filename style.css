@@ -286,8 +286,7 @@
   color: #002d54;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 50px;
-  padding-right: 40px; }
+  line-height: 50px; }
   #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title div {
     display: inline; }
   #wu-in-focus-2021-wrapper #acknowledgement-is-not-action .article-heading .title .italic {
@@ -319,8 +318,7 @@
   font-weight: bold;
   text-transform: none;
   font-style: italic;
-  line-height: 55px;
-  padding-right: 40px; }
+  line-height: 55px; }
   #wu-in-focus-2021-wrapper #a-new-kind-of-reality .article-heading .title div {
     display: inline-block;
     font-size: 50px;
@@ -362,8 +360,7 @@
   color: #002d54;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 35px;
-  padding-right: 40px; }
+  line-height: 35px; }
   #wu-in-focus-2021-wrapper #there-has-to-be-a-way-to-do-a-better-job .article-heading .title .serif {
     display: inline;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -400,8 +397,7 @@
   text-transform: none;
   font-weight: 500;
   font-style: italic;
-  line-height: 50px;
-  padding-right: 40px; }
+  line-height: 50px; }
   #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-light-blue, #wu-in-focus-2021-wrapper #esl-students-share-their-experience-at-WU .article-heading .title .text-dark-blue {
     font-weight: bold;
     color: #94aad8;
@@ -444,8 +440,7 @@
   font-weight: 500;
   font-style: normal;
   font-weight: bold;
-  line-height: 50px;
-  padding-right: 40px; }
+  line-height: 50px; }
   #wu-in-focus-2021-wrapper #hearing-in-and-out-of-the-classroom .article-heading .title .larger {
     font-size: 50px;
     line-height: 60px;
@@ -488,14 +483,31 @@
   font-weight: 500;
   font-style: normal;
   font-weight: bold;
-  line-height: 50px;
-  padding-right: 40px; }
+  line-height: 50px; }
 #wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .horizontal-divider {
   width: 100%;
   margin: 0; }
 #wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .article-contents .note {
   font-style: italic; }
 #wu-in-focus-2021-wrapper #wu-students-advocate-for-changes-on-campus .article-contents .bold {
+  font-weight: bold;
+  font-family: "Futura", "Helvetica", sans-serif;
+  text-align: center; }
+#wu-in-focus-2021-wrapper #audio .article-heading .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #002d54;
+  text-transform: none;
+  font-weight: 500;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 40px; }
+#wu-in-focus-2021-wrapper #audio .horizontal-divider {
+  width: 100%;
+  margin: 0; }
+#wu-in-focus-2021-wrapper #audio .article-contents .note {
+  font-style: italic; }
+#wu-in-focus-2021-wrapper #audio .article-contents .bold {
   font-weight: bold;
   font-family: "Futura", "Helvetica", sans-serif;
   text-align: center; }
