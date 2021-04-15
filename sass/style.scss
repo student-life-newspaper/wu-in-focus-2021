@@ -77,8 +77,13 @@ $bp-xs: 415px;
 }
 
 .article-heading {
+    button {
+        border: none;
+        background-color: #fff;
+    }
     .title {
         font-family: $font-headings-sans;
+        text-align: left;
         font-size: 80px;
         color: $color-light-green;
         text-transform: uppercase;

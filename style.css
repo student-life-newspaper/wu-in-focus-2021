@@ -48,8 +48,12 @@
   box-shadow: none !important; }
 #wu-in-focus-2021-wrapper .accordion-item {
   border: none !important; }
+#wu-in-focus-2021-wrapper .article-heading button {
+  border: none;
+  background-color: #fff; }
 #wu-in-focus-2021-wrapper .article-heading .title {
   font-family: "Futura", "Helvetica", sans-serif;
+  text-align: left;
   font-size: 80px;
   color: #91cd92;
   text-transform: uppercase;
